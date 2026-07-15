@@ -1,0 +1,57 @@
+# Files Included — Laravel Absensi KKN Breeze Ready
+
+Breeze scaffold sudah disertakan langsung, termasuk layout, komponen Blade, login, route auth, dan migration users.
+
+- `.env.example`
+- `FILES_INCLUDED.md`
+- `INSTALL_BREEZE_LANGSUNG.md`
+- `README.md`
+- `UPDATE_NOTES.md`
+- `app/Console/Commands/GenerateDailyAttendances.php`
+- `app/Exports/AttendanceReportExport.php`
+- `app/Http/Controllers/Admin/DashboardController.php`
+- `app/Http/Controllers/Admin/ReportController.php`
+- `app/Http/Controllers/AttendanceController.php`
+- `app/Http/Controllers/Auth/AuthenticatedSessionController.php`
+- `app/Http/Controllers/DashboardRedirectController.php`
+- `app/Http/Controllers/ProfileController.php`
+- `app/Http/Requests/Auth/LoginRequest.php`
+- `app/Models/Attendance.php`
+- `app/Models/User.php`
+- `app/Providers/AppServiceProvider.php`
+- `app/Services/AttendanceGeneratorService.php`
+- `app/Services/AttendanceReportService.php`
+- `app/View/Components/AppLayout.php`
+- `app/View/Components/GuestLayout.php`
+- `composer-extra-requirements.txt`
+- `database/migrations/0001_01_01_000000_create_users_table.php`
+- `database/migrations/2026_07_15_000001_add_absensi_fields_to_users_table.php`
+- `database/migrations/2026_07_15_000002_create_attendances_table.php`
+- `database/seeders/DatabaseSeeder.php`
+- `database/seeders/UserSeeder.php`
+- `package.json`
+- `postcss.config.js`
+- `resources/css/app.css`
+- `resources/js/app.js`
+- `resources/js/bootstrap.js`
+- `resources/views/admin/dashboard.blade.php`
+- `resources/views/attendances/form.blade.php`
+- `resources/views/attendances/history.blade.php`
+- `resources/views/attendances/index.blade.php`
+- `resources/views/auth/login.blade.php`
+- `resources/views/components/auth-session-status.blade.php`
+- `resources/views/components/input-error.blade.php`
+- `resources/views/components/input-label.blade.php`
+- `resources/views/components/text-input.blade.php`
+- `resources/views/dashboard.blade.php`
+- `resources/views/layouts/app.blade.php`
+- `resources/views/layouts/guest.blade.php`
+- `resources/views/layouts/navigation.blade.php`
+- `resources/views/profile/edit.blade.php`
+- `resources/views/reports/index.blade.php`
+- `resources/views/reports/pdf.blade.php`
+- `routes/auth.php`
+- `routes/console.php`
+- `routes/web.php`
+- `tailwind.config.js`
+- `vite.config.js`
